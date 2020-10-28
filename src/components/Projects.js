@@ -10,7 +10,6 @@ const projects = [
     { 'title': 'Minesweeper', 'language': 'JavaScript', 'description': 'A simple Minesweeper game', 'repository': 'https://github.com/Hawns4/minesweeper' },
     { 'title': 'Portfolio', 'language': 'JavaScript', 'description': 'This website', 'repository': 'https://github.com/Hawns4/portfolio' },
 ]
-
 export const Projects = () => (
     <Container>
         <Jumbotron>

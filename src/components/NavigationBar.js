@@ -12,8 +12,8 @@ export const NavigationBar = () => {
                 <Nav className="mr-auto">
                     <Nav.Link as={Link} to="/">Home</Nav.Link>
                     <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
-                    <Nav.Link href="https://www.linkedin.com/in/hans-cabrera/" target="_blank">LinkedIn</Nav.Link>
-                    <Nav.Link href="https://github.com/Hawns4" target="_blank">GitHub</Nav.Link>
+                    <Nav.Link href="https://www.linkedin.com/in/hans-cabrera/">LinkedIn</Nav.Link>
+                    <Nav.Link href="https://github.com/Hawns4">GitHub</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
