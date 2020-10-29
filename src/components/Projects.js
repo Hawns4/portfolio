@@ -23,7 +23,7 @@ export const Projects = () => (
 const createProjectCards = () => {
     return projects.map((project, index) => (
         <Card key={index}>
-            <Card.Header>{project.title}</Card.Header>
+            <Card.Header as='h4'>{project.title}</Card.Header>
             <Card.Body>
                 <Card.Title>{project.language}</Card.Title>
                 <Card.Text>
